@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #011126;
+}
+
+li,a,button{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.Logo{
+    cursor: pointer;
+}
+
+.NavLinks{
+    list-style: none;
+
+}
+
+.NavLinks li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.NavLinks li a{
+    transition: all 0.3s ease 0s;
+}
+
+.NavLinks li a:hover{
+    color: aqua;
+}
+
+button{
+    
+}
