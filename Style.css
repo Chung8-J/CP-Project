@@ -1,2 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+.LoginSignup_Button{
+    background-color: #50DA00;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 13px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: "Inter", sans-serif;
+    transition: 0.3s background-color;
+}
+
+.LoginSignup_Button:hover{
+    background-color: #5eff00;
+}
+
+.navbar-toggler{
+    border: none;
+    font-size: 2rem;
+}
+
+.navbar-toggler :focus, .btn-close:focus{
+    box-shadow: none;
+    outline: none   ;
+}
+
+.nav-item{
+    color: black;
+    font-family: "Inter",sans-serif;
+    font-weight: bolder;
+    position: relative;
+}
+
+@media (min-width:991px){
+    .nav-link::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 3px;
+        background-color: aqua;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before,.nav-link.active::before{
+        width: 100%;
+        visibility: visible;
+    }
+}   
