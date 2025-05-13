@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
+.navbar {
+    background-color: #5B0A91 ;
+    margin-top: 30px ;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 15px;
+    padding: 15px 10px;
+}
 .LoginSignup_Button{
     background-color: #50DA00;
     color: black;
@@ -19,7 +28,7 @@
 
 .navbar-toggler{
     border: none;
-    font-size: 2rem;
+    font-size: 1.45rem;
 }
 
 .navbar-toggler :focus, .btn-close:focus{
@@ -27,11 +36,15 @@
     outline: none   ;
 }
 
-.nav-item{
-    color: black;
+.nav-link{
+    color: white;
     font-family: "Inter",sans-serif;
     font-weight: bolder;
     position: relative;
+}
+
+.nav-link :hover{
+    color: saddlebrown;
 }
 
 @media (min-width:991px){
@@ -53,3 +66,7 @@
         visibility: visible;
     }
 }   
+
+.Hero-section{
+
+}
