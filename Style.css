@@ -83,18 +83,30 @@ body{
 .advertise-board{
     font-family: "Inter", sans-serif;
     align-items: center;
-    background-color: #8215ca;
+    background: url(Advi-Back.png);
+    background-repeat: no-repeat;
     text-align: right;
 
     margin-top: 150px;
     margin-right: 200px;
     margin-left: 200px;
 
-    padding: 220px 30px;
+    position: absolute;
+    position: absolute;
+    width: 1500px;
+    height: 500px;
 
     color: white;
+    padding: 30px 30px 30px 30px;
 }
 
 .advertise-board h1{
     font-weight: bolder;
+    font-size: 100px;
+    
+}
+
+.advertise-board p{
+    font-weight: bolder;
+    text-align: justify;
 }
