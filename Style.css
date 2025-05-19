@@ -45,7 +45,7 @@ body{
 }
 
 .nav-link{
-    color: white;
+    color: #011126;
     font-family: "Inter",sans-serif;
     font-weight: bolder;
     position: relative;
@@ -67,6 +67,12 @@ body{
         background-color: #50DA00;
         visibility: hidden;
         transition: 0.3s ease-in-out;
+        
+    }
+
+
+    .nav-link{
+        color: white;
     }
 
     .nav-link:hover::before,.nav-link.active::before{
@@ -76,7 +82,7 @@ body{
     }
 
     .nav-link :hover{
-        color: white;
+        color: black;
     }
 }   
 
@@ -98,6 +104,8 @@ body{
 
     color: white;
     padding: 30px 30px 30px 30px;
+
+    position: sticky;
 }
 
 .advertise-board h1{
