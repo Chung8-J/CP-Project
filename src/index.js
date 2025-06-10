@@ -17,7 +17,7 @@ index.get('/test' ,(req,res)=>{
 })
 
 index.get("/", async (req,res)=>{
-   const data = await client`SELECT * FROM users`;
+   const data = await client`SELECT * FROM member`;
     res.render("intro");
 })
 
